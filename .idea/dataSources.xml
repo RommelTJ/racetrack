@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="1327418628">
+    <data-source source="LOCAL" name="racetrack dev" uuid="a6f3f2f8-960a-49ab-9549-fe1615685e3f">
+      <jdbc-driver>com.mysql.</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/grailsdemo?autoreconnect=true</jdbc-url>
+      <user-name>romri</user-name>
+      <user-password>df93dfd0dfd9df9cdfd9dfc9dfe1dfdddfcfdfc8df8b</user-password>
+      <libraries />
+    </data-source>
+  </component>
+</project>
+
