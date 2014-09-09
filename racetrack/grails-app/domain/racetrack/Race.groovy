@@ -22,4 +22,15 @@ class Race {
     BigDecimal inMiles() {
         return distance * 0.6214
     }
+
+    static hasMany = [registrations:Registration]
+
+    String toString() {
+        if (name==null) {
+            return ""
+        }
+        else {
+            return "${name}, ${startDate.format('MM/dd/yyyy')}"
+        }
+    }
 }
