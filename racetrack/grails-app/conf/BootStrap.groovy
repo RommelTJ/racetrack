@@ -2,11 +2,32 @@ import grails.util.GrailsUtil
 import racetrack.Race
 import racetrack.Registration
 import racetrack.Runner
+import racetrack.User
 
 class BootStrap {
 
     def init = { servletContext ->
         if (GrailsUtil.isDevelopmentEnv()){
+            def admin = new User(
+                    login:"admin",
+                    password:"wordpass",
+                    role:"admin"
+            )
+            admin.save()
+            if(admin.hasErrors()){
+                println admin.errors
+            }
+
+            def jdoe = new User(
+                    login:"jdoe",
+                    password:"password",
+                    role:"user"
+            )
+            jdoe.save()
+            if(jdoe.hasErrors()){
+                println jdoe.errors
+            }
+
             def jane = new Runner(
                     firstName:"Jane",
                     lastName:"Doe",
