@@ -31,3 +31,4 @@ DataSource.groovy
 
 # "temporary" build files
 /target
+racetrack/grails-app/conf/DataSource.groovy
