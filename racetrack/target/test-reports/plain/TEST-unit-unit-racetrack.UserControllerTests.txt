@@ -1,0 +1,32 @@
+Testsuite: racetrack.UserControllerTests
+Tests run: 2, Failures: 1, Errors: 0, Time elapsed: 2.962 sec
+------------- Standard Output ---------------
+--Output from testAuthenticate--
+--Output from testIndex--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from testAuthenticate--
+--Output from testIndex--
+------------- ---------------- ---------------
+
+Testcase: testAuthenticate took 2.775 sec
+Testcase: testIndex took 0.136 sec
+	FAILED
+Assertion failed: 
+
+assert "/user/list" == response.redirectedUrl
+                    |  |        |
+                    |  |        null
+                    |  org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@257f2ad0
+                    false
+
+junit.framework.AssertionFailedError: Assertion failed: 
+
+assert "/user/list" == response.redirectedUrl
+                    |  |        |
+                    |  |        null
+                    |  org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@257f2ad0
+                    false
+
+	at racetrack.UserControllerTests.testIndex(UserControllerTests.groovy:15)
+

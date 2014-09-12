@@ -1,41 +1,89 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites>
-  <testsuite errors="0" failures="0" hostname="MC02MF14LFD58.local" id="0" name="RaceIntegrationTests" package="" tests="1" time="0.247" timestamp="2014-09-08T22:47:23">
+  <testsuite errors="2" failures="1" hostname="MC02MF14LFD58.local" id="0" name="UserControllerSpec" package="racetrack" tests="7" time="0.686" timestamp="2014-09-12T05:54:51">
       <properties />
 
-      <testcase classname="RaceIntegrationTests" name="testRaceDatesBeforeToday" time="0.247" />
+      <testcase classname="racetrack.UserControllerSpec" name="Test the index action returns the correct model" time="0.254" />
 
-      <system-out><![CDATA[--Output from testRaceDatesBeforeToday--
+      <testcase classname="racetrack.UserControllerSpec" name="Test the create action returns the correct model" time="0.039" />
 
-Errors:
-grails.validation.ValidationErrors: 6 errors
-Field error in object 'racetrack.Race' on field 'name': rejected value [null]; codes [racetrack.Race.name.nullable.error.racetrack.Race.name,racetrack.Race.name.nullable.error.name,racetrack.Race.name.nullable.error.java.lang.String,racetrack.Race.name.nullable.error,race.name.nullable.error.racetrack.Race.name,race.name.nullable.error.name,race.name.nullable.error.java.lang.String,race.name.nullable.error,racetrack.Race.name.nullable.racetrack.Race.name,racetrack.Race.name.nullable.name,racetrack.Race.name.nullable.java.lang.String,racetrack.Race.name.nullable,race.name.nullable.racetrack.Race.name,race.name.nullable.name,race.name.nullable.java.lang.String,race.name.nullable,nullable.racetrack.Race.name,nullable.name,nullable.java.lang.String,nullable]; arguments [name,class racetrack.Race]; default message [Property [{0}] of class [{1}] cannot be null]
-Field error in object 'racetrack.Race' on field 'startDate': rejected value [Mon Sep 01 15:47:23 PDT 2014]; codes [racetrack.Race.startDate.validator.error.racetrack.Race.startDate,racetrack.Race.startDate.validator.error.startDate,racetrack.Race.startDate.validator.error.java.util.Date,racetrack.Race.startDate.validator.error,race.startDate.validator.error.racetrack.Race.startDate,race.startDate.validator.error.startDate,race.startDate.validator.error.java.util.Date,race.startDate.validator.error,racetrack.Race.startDate.validator.invalid.racetrack.Race.startDate,racetrack.Race.startDate.validator.invalid.startDate,racetrack.Race.startDate.validator.invalid.java.util.Date,racetrack.Race.startDate.validator.invalid,race.startDate.validator.invalid.racetrack.Race.startDate,race.startDate.validator.invalid.startDate,race.startDate.validator.invalid.java.util.Date,race.startDate.validator.invalid,validator.invalid.racetrack.Race.startDate,validator.invalid.startDate,validator.invalid.java.util.Date,validator.invalid]; arguments [startDate,class racetrack.Race,Mon Sep 01 15:47:23 PDT 2014]; default message [Property [{0}] of class [{1}] with value [{2}] does not pass custom validation]
-Field error in object 'racetrack.Race' on field 'city': rejected value [null]; codes [racetrack.Race.city.nullable.error.racetrack.Race.city,racetrack.Race.city.nullable.error.city,racetrack.Race.city.nullable.error.java.lang.String,racetrack.Race.city.nullable.error,race.city.nullable.error.racetrack.Race.city,race.city.nullable.error.city,race.city.nullable.error.java.lang.String,race.city.nullable.error,racetrack.Race.city.nullable.racetrack.Race.city,racetrack.Race.city.nullable.city,racetrack.Race.city.nullable.java.lang.String,racetrack.Race.city.nullable,race.city.nullable.racetrack.Race.city,race.city.nullable.city,race.city.nullable.java.lang.String,race.city.nullable,nullable.racetrack.Race.city,nullable.city,nullable.java.lang.String,nullable]; arguments [city,class racetrack.Race]; default message [Property [{0}] of class [{1}] cannot be null]
-Field error in object 'racetrack.Race' on field 'state': rejected value [null]; codes [racetrack.Race.state.nullable.error.racetrack.Race.state,racetrack.Race.state.nullable.error.state,racetrack.Race.state.nullable.error.java.lang.String,racetrack.Race.state.nullable.error,race.state.nullable.error.racetrack.Race.state,race.state.nullable.error.state,race.state.nullable.error.java.lang.String,race.state.nullable.error,racetrack.Race.state.nullable.racetrack.Race.state,racetrack.Race.state.nullable.state,racetrack.Race.state.nullable.java.lang.String,racetrack.Race.state.nullable,race.state.nullable.racetrack.Race.state,race.state.nullable.state,race.state.nullable.java.lang.String,race.state.nullable,nullable.racetrack.Race.state,nullable.state,nullable.java.lang.String,nullable]; arguments [state,class racetrack.Race]; default message [Property [{0}] of class [{1}] cannot be null]
-Field error in object 'racetrack.Race' on field 'distance': rejected value [null]; codes [racetrack.Race.distance.nullable.error.racetrack.Race.distance,racetrack.Race.distance.nullable.error.distance,racetrack.Race.distance.nullable.error.java.math.BigDecimal,racetrack.Race.distance.nullable.error,race.distance.nullable.error.racetrack.Race.distance,race.distance.nullable.error.distance,race.distance.nullable.error.java.math.BigDecimal,race.distance.nullable.error,racetrack.Race.distance.nullable.racetrack.Race.distance,racetrack.Race.distance.nullable.distance,racetrack.Race.distance.nullable.java.math.BigDecimal,racetrack.Race.distance.nullable,race.distance.nullable.racetrack.Race.distance,race.distance.nullable.distance,race.distance.nullable.java.math.BigDecimal,race.distance.nullable,nullable.racetrack.Race.distance,nullable.distance,nullable.java.math.BigDecimal,nullable]; arguments [distance,class racetrack.Race]; default message [Property [{0}] of class [{1}] cannot be null]
-Field error in object 'racetrack.Race' on field 'cost': rejected value [null]; codes [racetrack.Race.cost.nullable.error.racetrack.Race.cost,racetrack.Race.cost.nullable.error.cost,racetrack.Race.cost.nullable.error.java.math.BigDecimal,racetrack.Race.cost.nullable.error,race.cost.nullable.error.racetrack.Race.cost,race.cost.nullable.error.cost,race.cost.nullable.error.java.math.BigDecimal,race.cost.nullable.error,racetrack.Race.cost.nullable.racetrack.Race.cost,racetrack.Race.cost.nullable.cost,racetrack.Race.cost.nullable.java.math.BigDecimal,racetrack.Race.cost.nullable,race.cost.nullable.racetrack.Race.cost,race.cost.nullable.cost,race.cost.nullable.java.math.BigDecimal,race.cost.nullable,nullable.racetrack.Race.cost,nullable.cost,nullable.java.math.BigDecimal,nullable]; arguments [cost,class racetrack.Race]; default message [Property [{0}] of class [{1}] cannot be null]
+      <testcase classname="racetrack.UserControllerSpec" name="Test the save action correctly persists an instance" time="0.228">
+          <error message="Cannot redirect for object [null] it is not a domain or has no identifier. Use an explicit redirect instead " type="org.codehaus.groovy.grails.web.servlet.mvc.exceptions.CannotRedirectException">org.codehaus.groovy.grails.web.servlet.mvc.exceptions.CannotRedirectException: Cannot redirect for object [null] it is not a domain or has no identifier. Use an explicit redirect instead 
+	at org.grails.plugins.web.rest.api.ControllersRestApi.redirect(ControllersRestApi.groovy:53)
+	at racetrack.UserController.tt__save_closure12_closure17(UserController.groovy:43)
+	at racetrack.UserController.$tt__save(UserController.groovy:40)
+	at racetrack.UserControllerSpec.Test the save action correctly persists an instance(UserControllerSpec.groovy:54)
+</error>
 
-BadField:
-Field error in object 'racetrack.Race' on field 'startDate': rejected value [Mon Sep 01 15:47:23 PDT 2014]; codes [racetrack.Race.startDate.validator.error.racetrack.Race.startDate,racetrack.Race.startDate.validator.error.startDate,racetrack.Race.startDate.validator.error.java.util.Date,racetrack.Race.startDate.validator.error,race.startDate.validator.error.racetrack.Race.startDate,race.startDate.validator.error.startDate,race.startDate.validator.error.java.util.Date,race.startDate.validator.error,racetrack.Race.startDate.validator.invalid.racetrack.Race.startDate,racetrack.Race.startDate.validator.invalid.startDate,racetrack.Race.startDate.validator.invalid.java.util.Date,racetrack.Race.startDate.validator.invalid,race.startDate.validator.invalid.racetrack.Race.startDate,race.startDate.validator.invalid.startDate,race.startDate.validator.invalid.java.util.Date,race.startDate.validator.invalid,validator.invalid.racetrack.Race.startDate,validator.invalid.startDate,validator.invalid.java.util.Date,validator.invalid]; arguments [startDate,class racetrack.Race,Mon Sep 01 15:47:23 PDT 2014]; default message [Property [{0}] of class [{1}] with value [{2}] does not pass custom validation]
+      </testcase>
 
-Code:
-race.startDate.validator.invalid
+      <testcase classname="racetrack.UserControllerSpec" name="Test that the show action returns the correct model" time="0.036" />
+
+      <testcase classname="racetrack.UserControllerSpec" name="Test that the edit action returns the correct model" time="0.03" />
+
+      <testcase classname="racetrack.UserControllerSpec" name="Test the update action performs an update on a valid domain instance" time="0.045">
+          <error message="Cannot get property &apos;id&apos; on null object" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot get property &apos;id&apos; on null object
+	at racetrack.UserControllerSpec.Test the update action performs an update on a valid domain instance(UserControllerSpec.groovy:122)
+</error>
+
+      </testcase>
+
+      <testcase classname="racetrack.UserControllerSpec" name="Test that the delete action deletes an instance if it exists" time="0.036">
+          <failure message="Condition not satisfied:&#xa;&#xa;User.count() == 1&#xa;     |       |&#xa;     0       false&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Condition not satisfied:
+
+User.count() == 1
+     |       |
+     0       false
+
+	at racetrack.UserControllerSpec.Test that the delete action deletes an instance if it exists(UserControllerSpec.groovy:142)
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from Test the index action returns the correct model--
+--Output from Test the create action returns the correct model--
+--Output from Test the save action correctly persists an instance--
+--Output from Test that the show action returns the correct model--
+--Output from Test that the edit action returns the correct model--
+--Output from Test the update action performs an update on a valid domain instance--
+--Output from Test that the delete action deletes an instance if it exists--
 ]]></system-out>
 
-      <system-err><![CDATA[--Output from testRaceDatesBeforeToday--
+      <system-err><![CDATA[--Output from Test the index action returns the correct model--
+--Output from Test the create action returns the correct model--
+--Output from Test the save action correctly persists an instance--
+--Output from Test that the show action returns the correct model--
+--Output from Test that the edit action returns the correct model--
+--Output from Test the update action performs an update on a valid domain instance--
+--Output from Test that the delete action deletes an instance if it exists--
 ]]></system-err>
 
   </testsuite>
-  <testsuite errors="0" failures="0" hostname="MC02MF14LFD58.local" id="1" name="RaceTests" package="racetrack" tests="1" time="1.731" timestamp="2014-09-08T22:47:13">
+  <testsuite errors="0" failures="1" hostname="MC02MF14LFD58.local" id="1" name="UserControllerTests" package="racetrack" tests="2" time="2.962" timestamp="2014-09-12T05:54:48">
       <properties />
 
-      <testcase classname="racetrack.RaceTests" name="testInMiles" time="1.696" />
+      <testcase classname="racetrack.UserControllerTests" name="testAuthenticate" time="2.775" />
 
-      <system-out><![CDATA[--Output from testInMiles--
+      <testcase classname="racetrack.UserControllerTests" name="testIndex" time="0.136">
+          <failure message="Assertion failed: &#xa;&#xa;assert &quot;/user/list&quot; == response.redirectedUrl&#xa;                    |  |        |&#xa;                    |  |        null&#xa;                    |  org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@257f2ad0&#xa;                    false&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert &quot;/user/list&quot; == response.redirectedUrl
+                    |  |        |
+                    |  |        null
+                    |  org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@257f2ad0
+                    false
+
+	at racetrack.UserControllerTests.testIndex(UserControllerTests.groovy:15)
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from testAuthenticate--
+--Output from testIndex--
 ]]></system-out>
 
-      <system-err><![CDATA[--Output from testInMiles--
+      <system-err><![CDATA[--Output from testAuthenticate--
+--Output from testIndex--
 ]]></system-err>
 
   </testsuite>
