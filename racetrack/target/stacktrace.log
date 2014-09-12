@@ -16177,3 +16177,785 @@ User.count() == 1
      0       false
 
 	at racetrack.UserControllerSpec.Test that the delete action deletes an instance if it exists(UserControllerSpec.groovy:142)
+2014-09-12 13:39:42,782 [main] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.grails.web.servlet.mvc.exceptions.CannotRedirectException: Cannot redirect for object [null] it is not a domain or has no identifier. Use an explicit redirect instead 
+	at org.codehaus.groovy.grails.plugins.web.api.ControllersApi.redirect(ControllersApi.java:276)
+	at org.grails.plugins.web.rest.api.ControllersRestApi.redirect(ControllersRestApi.groovy:53)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1270)
+	at groovy.lang.GroovyObjectSupport.invokeMethod(GroovyObjectSupport.java:44)
+	at racetrack.UserController.tt__save_closure12_closure17(UserController.groovy:43)
+	at racetrack.UserController.tt__save_closure12_closure17(UserController.groovy)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1270)
+	at groovy.lang.Closure.call(Closure.java:423)
+	at groovy.lang.Closure.call(Closure.java:417)
+	at org.codehaus.groovy.grails.plugins.web.api.MimeTypesApiSupport.getResponseForFormat(MimeTypesApiSupport.groovy:142)
+	at org.codehaus.groovy.grails.plugins.web.api.MimeTypesApiSupport.withFormatInternal(MimeTypesApiSupport.groovy:57)
+	at org.codehaus.groovy.grails.plugins.web.api.MimeTypesApiSupport.withFormat(MimeTypesApiSupport.groovy:40)
+	at org.codehaus.groovy.grails.plugins.web.api.RequestMimeTypesApi.withFormat(RequestMimeTypesApi.groovy:95)
+	at racetrack.UserController.$tt__save(UserController.groovy:40)
+	at racetrack.UserController.save_closure7(UserController.groovy)
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1270)
+	at groovy.lang.Closure.call(Closure.java:423)
+	at groovy.lang.Closure.call(Closure.java:439)
+	at org.codehaus.groovy.grails.orm.support.GrailsTransactionTemplate$2.doInTransaction(GrailsTransactionTemplate.groovy:88)
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:133)
+	at org.codehaus.groovy.grails.orm.support.GrailsTransactionTemplate.execute(GrailsTransactionTemplate.groovy:85)
+	at racetrack.UserControllerSpec.Test the save action correctly persists an instance(UserControllerSpec.groovy:54)
+2014-09-12 13:39:42,785 [main] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.grails.web.servlet.mvc.exceptions.CannotRedirectException: Cannot redirect for object [null] it is not a domain or has no identifier. Use an explicit redirect instead 
+	at org.grails.plugins.web.rest.api.ControllersRestApi.redirect(ControllersRestApi.groovy:53)
+	at racetrack.UserController.tt__save_closure12_closure17(UserController.groovy:43)
+	at racetrack.UserController.$tt__save(UserController.groovy:40)
+	at racetrack.UserControllerSpec.Test the save action correctly persists an instance(UserControllerSpec.groovy:54)
+2014-09-12 13:39:42,785 [main] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.grails.web.servlet.mvc.exceptions.CannotRedirectException: Cannot redirect for object [null] it is not a domain or has no identifier. Use an explicit redirect instead 
+	at org.grails.plugins.web.rest.api.ControllersRestApi.redirect(ControllersRestApi.groovy:53)
+	at racetrack.UserController.tt__save_closure12_closure17(UserController.groovy:43)
+	at racetrack.UserController.$tt__save(UserController.groovy:40)
+	at racetrack.UserControllerSpec.Test the save action correctly persists an instance(UserControllerSpec.groovy:54)
+2014-09-12 13:39:42,786 [main] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.grails.web.servlet.mvc.exceptions.CannotRedirectException: Cannot redirect for object [null] it is not a domain or has no identifier. Use an explicit redirect instead 
+	at org.grails.plugins.web.rest.api.ControllersRestApi.redirect(ControllersRestApi.groovy:53)
+	at racetrack.UserController.tt__save_closure12_closure17(UserController.groovy:43)
+	at racetrack.UserController.$tt__save(UserController.groovy:40)
+	at racetrack.UserControllerSpec.Test the save action correctly persists an instance(UserControllerSpec.groovy:54)
+2014-09-12 13:39:42,795 [main] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.grails.web.servlet.mvc.exceptions.CannotRedirectException: Cannot redirect for object [null] it is not a domain or has no identifier. Use an explicit redirect instead 
+	at org.grails.plugins.web.rest.api.ControllersRestApi.redirect(ControllersRestApi.groovy:53)
+	at racetrack.UserController.tt__save_closure12_closure17(UserController.groovy:43)
+	at racetrack.UserController.$tt__save(UserController.groovy:40)
+	at racetrack.UserControllerSpec.Test the save action correctly persists an instance(UserControllerSpec.groovy:54)
+2014-09-12 13:39:42,795 [main] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.grails.web.servlet.mvc.exceptions.CannotRedirectException: Cannot redirect for object [null] it is not a domain or has no identifier. Use an explicit redirect instead 
+	at org.grails.plugins.web.rest.api.ControllersRestApi.redirect(ControllersRestApi.groovy:53)
+	at racetrack.UserController.tt__save_closure12_closure17(UserController.groovy:43)
+	at racetrack.UserController.$tt__save(UserController.groovy:40)
+	at racetrack.UserControllerSpec.Test the save action correctly persists an instance(UserControllerSpec.groovy:54)
+2014-09-12 13:39:42,907 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot get property 'id' on null object
+	at racetrack.UserControllerSpec.Test the update action performs an update on a valid domain instance(UserControllerSpec.groovy:122)
+2014-09-12 13:39:42,907 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot get property 'id' on null object
+	at racetrack.UserControllerSpec.Test the update action performs an update on a valid domain instance(UserControllerSpec.groovy:122)
+2014-09-12 13:39:42,908 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot get property 'id' on null object
+	at racetrack.UserControllerSpec.Test the update action performs an update on a valid domain instance(UserControllerSpec.groovy:122)
+2014-09-12 13:39:42,908 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot get property 'id' on null object
+	at racetrack.UserControllerSpec.Test the update action performs an update on a valid domain instance(UserControllerSpec.groovy:122)
+2014-09-12 13:39:42,908 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot get property 'id' on null object
+	at racetrack.UserControllerSpec.Test the update action performs an update on a valid domain instance(UserControllerSpec.groovy:122)
+2014-09-12 13:39:42,908 [main] ERROR StackTrace  - Full Stack Trace:
+java.lang.NullPointerException: Cannot get property 'id' on null object
+	at racetrack.UserControllerSpec.Test the update action performs an update on a valid domain instance(UserControllerSpec.groovy:122)
+2014-09-12 13:39:42,946 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+User.count() == 1
+     |       |
+     0       false
+
+	at racetrack.UserControllerSpec.Test that the delete action deletes an instance if it exists(UserControllerSpec.groovy:142)
+2014-09-12 13:39:42,948 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+User.count() == 1
+     |       |
+     0       false
+
+	at racetrack.UserControllerSpec.Test that the delete action deletes an instance if it exists(UserControllerSpec.groovy:142)
+2014-09-12 13:39:42,948 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+User.count() == 1
+     |       |
+     0       false
+
+	at racetrack.UserControllerSpec.Test that the delete action deletes an instance if it exists(UserControllerSpec.groovy:142)
+2014-09-12 13:39:42,948 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+User.count() == 1
+     |       |
+     0       false
+
+	at racetrack.UserControllerSpec.Test that the delete action deletes an instance if it exists(UserControllerSpec.groovy:142)
+2014-09-12 13:39:42,948 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+User.count() == 1
+     |       |
+     0       false
+
+	at racetrack.UserControllerSpec.Test that the delete action deletes an instance if it exists(UserControllerSpec.groovy:142)
+2014-09-12 13:39:42,948 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+User.count() == 1
+     |       |
+     0       false
+
+	at racetrack.UserControllerSpec.Test that the delete action deletes an instance if it exists(UserControllerSpec.groovy:142)
+2014-09-12 13:56:38,745 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'grailsApplication' defined in ServletContext resource [/WEB-INF/applicationContext.xml]: Invocation of init method failed; nested exception is org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Class not found loading Grails application: SHACodec
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:539)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:475)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:298)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:193)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:684)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:760)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:482)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:403)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:306)
+	at org.codehaus.groovy.grails.web.context.GrailsContextLoaderListener.initWebApplicationContext(GrailsContextLoaderListener.java:71)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:106)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4992)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5490)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1575)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1565)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Class not found loading Grails application: SHACodec
+	at org.codehaus.groovy.grails.commons.DefaultGrailsApplication.<init>(DefaultGrailsApplication.java:125)
+	at org.codehaus.groovy.grails.commons.GrailsApplicationFactoryBean.afterPropertiesSet(GrailsApplicationFactoryBean.java:99)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1612)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1549)
+	... 22 more
+Caused by: java.lang.ClassNotFoundException: SHACodec
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:372)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:361)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:360)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at groovy.lang.GroovyClassLoader.loadClass(GroovyClassLoader.java:655)
+	at groovy.lang.GroovyClassLoader.loadClass(GroovyClassLoader.java:765)
+	at groovy.lang.GroovyClassLoader.loadClass(GroovyClassLoader.java:753)
+	at org.codehaus.groovy.grails.commons.DefaultGrailsApplication.<init>(DefaultGrailsApplication.java:123)
+	... 25 more
+2014-09-12 13:56:38,747 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Class not found loading Grails application: SHACodec
+	at org.codehaus.groovy.grails.commons.DefaultGrailsApplication.<init>(DefaultGrailsApplication.java:125)
+	at org.codehaus.groovy.grails.commons.GrailsApplicationFactoryBean.afterPropertiesSet(GrailsApplicationFactoryBean.java:99)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1612)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1549)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:539)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:475)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:298)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:193)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:684)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:760)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:482)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:403)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:306)
+	at org.codehaus.groovy.grails.web.context.GrailsContextLoaderListener.initWebApplicationContext(GrailsContextLoaderListener.java:71)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:106)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4992)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5490)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1575)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1565)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.ClassNotFoundException: SHACodec
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:372)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:361)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:360)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at groovy.lang.GroovyClassLoader.loadClass(GroovyClassLoader.java:655)
+	at groovy.lang.GroovyClassLoader.loadClass(GroovyClassLoader.java:765)
+	at groovy.lang.GroovyClassLoader.loadClass(GroovyClassLoader.java:753)
+	at org.codehaus.groovy.grails.commons.DefaultGrailsApplication.<init>(DefaultGrailsApplication.java:123)
+	... 25 more
+2014-09-12 13:56:38,748 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+java.lang.ClassNotFoundException: SHACodec
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:372)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:361)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:360)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at groovy.lang.GroovyClassLoader.loadClass(GroovyClassLoader.java:655)
+	at groovy.lang.GroovyClassLoader.loadClass(GroovyClassLoader.java:765)
+	at groovy.lang.GroovyClassLoader.loadClass(GroovyClassLoader.java:753)
+	at org.codehaus.groovy.grails.commons.DefaultGrailsApplication.<init>(DefaultGrailsApplication.java:123)
+	at org.codehaus.groovy.grails.commons.GrailsApplicationFactoryBean.afterPropertiesSet(GrailsApplicationFactoryBean.java:99)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1612)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1549)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:539)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:475)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:298)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:193)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:684)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:760)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:482)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:403)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:306)
+	at org.codehaus.groovy.grails.web.context.GrailsContextLoaderListener.initWebApplicationContext(GrailsContextLoaderListener.java:71)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:106)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4992)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5490)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1575)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1565)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2014-09-12 13:56:38,749 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'grailsApplication' defined in ServletContext resource [/WEB-INF/applicationContext.xml]: Invocation of init method failed; nested exception is org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Class not found loading Grails application: SHACodec
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Class not found loading Grails application: SHACodec
+	... 4 more
+Caused by: java.lang.ClassNotFoundException: SHACodec
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:372)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:361)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:360)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	... 4 more
+2014-09-12 13:56:38,749 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'grailsApplication' defined in ServletContext resource [/WEB-INF/applicationContext.xml]: Invocation of init method failed; nested exception is org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Class not found loading Grails application: SHACodec
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Class not found loading Grails application: SHACodec
+	... 4 more
+Caused by: java.lang.ClassNotFoundException: SHACodec
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:372)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:361)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:360)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	... 4 more
+2014-09-12 13:56:38,749 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Class not found loading Grails application: SHACodec
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.ClassNotFoundException: SHACodec
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:372)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:361)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:360)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	... 4 more
+2014-09-12 13:56:38,750 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+java.lang.ClassNotFoundException: SHACodec
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:372)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:361)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:360)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2014-09-12 13:56:38,750 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'grailsApplication' defined in ServletContext resource [/WEB-INF/applicationContext.xml]: Invocation of init method failed; nested exception is org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Class not found loading Grails application: SHACodec
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Class not found loading Grails application: SHACodec
+	... 4 more
+Caused by: java.lang.ClassNotFoundException: SHACodec
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:372)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:361)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:360)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	... 4 more
+2014-09-12 13:56:38,819 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'grailsApplication' defined in ServletContext resource [/WEB-INF/applicationContext.xml]: Invocation of init method failed; nested exception is org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Class not found loading Grails application: SHACodec
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Class not found loading Grails application: SHACodec
+	... 4 more
+Caused by: java.lang.ClassNotFoundException: SHACodec
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:372)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:361)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:360)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	... 4 more
+2014-09-12 13:56:38,819 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Class not found loading Grails application: SHACodec
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.ClassNotFoundException: SHACodec
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:372)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:361)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:360)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	... 4 more
+2014-09-12 13:56:38,819 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+java.lang.ClassNotFoundException: SHACodec
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:372)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:361)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:360)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2014-09-12 13:56:38,820 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'grailsApplication' defined in ServletContext resource [/WEB-INF/applicationContext.xml]: Invocation of init method failed; nested exception is org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Class not found loading Grails application: SHACodec
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Class not found loading Grails application: SHACodec
+	... 4 more
+Caused by: java.lang.ClassNotFoundException: SHACodec
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:372)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:361)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:360)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	... 4 more
+2014-09-12 13:56:38,820 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'grailsApplication' defined in ServletContext resource [/WEB-INF/applicationContext.xml]: Invocation of init method failed; nested exception is org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Class not found loading Grails application: SHACodec
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Class not found loading Grails application: SHACodec
+	... 4 more
+Caused by: java.lang.ClassNotFoundException: SHACodec
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:372)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:361)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:360)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	... 4 more
+2014-09-12 13:56:38,820 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Class not found loading Grails application: SHACodec
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.ClassNotFoundException: SHACodec
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:372)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:361)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:360)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	... 4 more
+2014-09-12 13:56:38,820 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+java.lang.ClassNotFoundException: SHACodec
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:372)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:361)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:360)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2014-09-12 13:56:38,821 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'grailsApplication' defined in ServletContext resource [/WEB-INF/applicationContext.xml]: Invocation of init method failed; nested exception is org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Class not found loading Grails application: SHACodec
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Class not found loading Grails application: SHACodec
+	... 4 more
+Caused by: java.lang.ClassNotFoundException: SHACodec
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:372)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:361)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:360)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	... 4 more
+2014-09-12 13:56:38,821 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'grailsApplication' defined in ServletContext resource [/WEB-INF/applicationContext.xml]: Invocation of init method failed; nested exception is org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Class not found loading Grails application: SHACodec
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Class not found loading Grails application: SHACodec
+	... 4 more
+Caused by: java.lang.ClassNotFoundException: SHACodec
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:372)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:361)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:360)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	... 4 more
+2014-09-12 13:56:38,821 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Class not found loading Grails application: SHACodec
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.ClassNotFoundException: SHACodec
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:372)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:361)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:360)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	... 4 more
+2014-09-12 13:56:38,821 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+java.lang.ClassNotFoundException: SHACodec
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:372)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:361)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:360)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2014-09-12 13:56:38,821 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'grailsApplication' defined in ServletContext resource [/WEB-INF/applicationContext.xml]: Invocation of init method failed; nested exception is org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Class not found loading Grails application: SHACodec
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Class not found loading Grails application: SHACodec
+	... 4 more
+Caused by: java.lang.ClassNotFoundException: SHACodec
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:372)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:361)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:360)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	... 4 more
+2014-09-12 14:01:19,878 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'grailsApplication' defined in ServletContext resource [/WEB-INF/applicationContext.xml]: Invocation of init method failed; nested exception is org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Class not found loading Grails application: SHACodec
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:539)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:475)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:298)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:193)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:684)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:760)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:482)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:403)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:306)
+	at org.codehaus.groovy.grails.web.context.GrailsContextLoaderListener.initWebApplicationContext(GrailsContextLoaderListener.java:71)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:106)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4992)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5490)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1575)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1565)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Class not found loading Grails application: SHACodec
+	at org.codehaus.groovy.grails.commons.DefaultGrailsApplication.<init>(DefaultGrailsApplication.java:125)
+	at org.codehaus.groovy.grails.commons.GrailsApplicationFactoryBean.afterPropertiesSet(GrailsApplicationFactoryBean.java:99)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1612)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1549)
+	... 22 more
+Caused by: java.lang.ClassNotFoundException: SHACodec
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:372)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:361)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:360)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at groovy.lang.GroovyClassLoader.loadClass(GroovyClassLoader.java:655)
+	at groovy.lang.GroovyClassLoader.loadClass(GroovyClassLoader.java:765)
+	at groovy.lang.GroovyClassLoader.loadClass(GroovyClassLoader.java:753)
+	at org.codehaus.groovy.grails.commons.DefaultGrailsApplication.<init>(DefaultGrailsApplication.java:123)
+	... 25 more
+2014-09-12 14:01:19,882 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Class not found loading Grails application: SHACodec
+	at org.codehaus.groovy.grails.commons.DefaultGrailsApplication.<init>(DefaultGrailsApplication.java:125)
+	at org.codehaus.groovy.grails.commons.GrailsApplicationFactoryBean.afterPropertiesSet(GrailsApplicationFactoryBean.java:99)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1612)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1549)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:539)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:475)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:298)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:193)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:684)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:760)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:482)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:403)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:306)
+	at org.codehaus.groovy.grails.web.context.GrailsContextLoaderListener.initWebApplicationContext(GrailsContextLoaderListener.java:71)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:106)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4992)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5490)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1575)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1565)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.ClassNotFoundException: SHACodec
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:372)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:361)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:360)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at groovy.lang.GroovyClassLoader.loadClass(GroovyClassLoader.java:655)
+	at groovy.lang.GroovyClassLoader.loadClass(GroovyClassLoader.java:765)
+	at groovy.lang.GroovyClassLoader.loadClass(GroovyClassLoader.java:753)
+	at org.codehaus.groovy.grails.commons.DefaultGrailsApplication.<init>(DefaultGrailsApplication.java:123)
+	... 25 more
+2014-09-12 14:01:19,883 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+java.lang.ClassNotFoundException: SHACodec
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:372)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:361)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:360)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at groovy.lang.GroovyClassLoader.loadClass(GroovyClassLoader.java:655)
+	at groovy.lang.GroovyClassLoader.loadClass(GroovyClassLoader.java:765)
+	at groovy.lang.GroovyClassLoader.loadClass(GroovyClassLoader.java:753)
+	at org.codehaus.groovy.grails.commons.DefaultGrailsApplication.<init>(DefaultGrailsApplication.java:123)
+	at org.codehaus.groovy.grails.commons.GrailsApplicationFactoryBean.afterPropertiesSet(GrailsApplicationFactoryBean.java:99)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1612)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1549)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:539)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:475)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:228)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:298)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:193)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:684)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:760)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:482)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:403)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:306)
+	at org.codehaus.groovy.grails.web.context.GrailsContextLoaderListener.initWebApplicationContext(GrailsContextLoaderListener.java:71)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:106)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4992)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5490)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1575)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1565)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2014-09-12 14:01:19,884 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'grailsApplication' defined in ServletContext resource [/WEB-INF/applicationContext.xml]: Invocation of init method failed; nested exception is org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Class not found loading Grails application: SHACodec
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Class not found loading Grails application: SHACodec
+	... 4 more
+Caused by: java.lang.ClassNotFoundException: SHACodec
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:372)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:361)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:360)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	... 4 more
+2014-09-12 14:01:19,884 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'grailsApplication' defined in ServletContext resource [/WEB-INF/applicationContext.xml]: Invocation of init method failed; nested exception is org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Class not found loading Grails application: SHACodec
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Class not found loading Grails application: SHACodec
+	... 4 more
+Caused by: java.lang.ClassNotFoundException: SHACodec
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:372)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:361)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:360)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	... 4 more
+2014-09-12 14:01:19,884 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Class not found loading Grails application: SHACodec
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.ClassNotFoundException: SHACodec
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:372)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:361)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:360)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	... 4 more
+2014-09-12 14:01:19,885 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+java.lang.ClassNotFoundException: SHACodec
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:372)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:361)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:360)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2014-09-12 14:01:19,885 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'grailsApplication' defined in ServletContext resource [/WEB-INF/applicationContext.xml]: Invocation of init method failed; nested exception is org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Class not found loading Grails application: SHACodec
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Class not found loading Grails application: SHACodec
+	... 4 more
+Caused by: java.lang.ClassNotFoundException: SHACodec
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:372)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:361)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:360)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	... 4 more
+2014-09-12 14:01:19,965 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'grailsApplication' defined in ServletContext resource [/WEB-INF/applicationContext.xml]: Invocation of init method failed; nested exception is org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Class not found loading Grails application: SHACodec
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Class not found loading Grails application: SHACodec
+	... 4 more
+Caused by: java.lang.ClassNotFoundException: SHACodec
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:372)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:361)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:360)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	... 4 more
+2014-09-12 14:01:19,965 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Class not found loading Grails application: SHACodec
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.ClassNotFoundException: SHACodec
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:372)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:361)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:360)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	... 4 more
+2014-09-12 14:01:19,965 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+java.lang.ClassNotFoundException: SHACodec
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:372)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:361)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:360)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2014-09-12 14:01:19,965 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'grailsApplication' defined in ServletContext resource [/WEB-INF/applicationContext.xml]: Invocation of init method failed; nested exception is org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Class not found loading Grails application: SHACodec
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Class not found loading Grails application: SHACodec
+	... 4 more
+Caused by: java.lang.ClassNotFoundException: SHACodec
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:372)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:361)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:360)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	... 4 more
+2014-09-12 14:01:19,966 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'grailsApplication' defined in ServletContext resource [/WEB-INF/applicationContext.xml]: Invocation of init method failed; nested exception is org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Class not found loading Grails application: SHACodec
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Class not found loading Grails application: SHACodec
+	... 4 more
+Caused by: java.lang.ClassNotFoundException: SHACodec
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:372)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:361)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:360)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	... 4 more
+2014-09-12 14:01:19,966 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Class not found loading Grails application: SHACodec
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.ClassNotFoundException: SHACodec
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:372)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:361)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:360)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	... 4 more
+2014-09-12 14:01:19,966 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+java.lang.ClassNotFoundException: SHACodec
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:372)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:361)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:360)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2014-09-12 14:01:19,966 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'grailsApplication' defined in ServletContext resource [/WEB-INF/applicationContext.xml]: Invocation of init method failed; nested exception is org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Class not found loading Grails application: SHACodec
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Class not found loading Grails application: SHACodec
+	... 4 more
+Caused by: java.lang.ClassNotFoundException: SHACodec
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:372)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:361)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:360)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	... 4 more
+2014-09-12 14:01:19,966 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'grailsApplication' defined in ServletContext resource [/WEB-INF/applicationContext.xml]: Invocation of init method failed; nested exception is org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Class not found loading Grails application: SHACodec
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Class not found loading Grails application: SHACodec
+	... 4 more
+Caused by: java.lang.ClassNotFoundException: SHACodec
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:372)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:361)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:360)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	... 4 more
+2014-09-12 14:01:19,967 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Class not found loading Grails application: SHACodec
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.ClassNotFoundException: SHACodec
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:372)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:361)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:360)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	... 4 more
+2014-09-12 14:01:19,967 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+java.lang.ClassNotFoundException: SHACodec
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:372)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:361)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:360)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+2014-09-12 14:01:19,967 [localhost-startStop-1] ERROR StackTrace  - Full Stack Trace:
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'grailsApplication' defined in ServletContext resource [/WEB-INF/applicationContext.xml]: Invocation of init method failed; nested exception is org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Class not found loading Grails application: SHACodec
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.codehaus.groovy.grails.exceptions.GrailsConfigurationException: Class not found loading Grails application: SHACodec
+	... 4 more
+Caused by: java.lang.ClassNotFoundException: SHACodec
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:372)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:361)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:360)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	... 4 more

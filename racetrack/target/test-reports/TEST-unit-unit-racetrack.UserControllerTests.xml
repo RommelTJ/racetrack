@@ -1,23 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="1" hostname="MC02MF14LFD58.local" name="racetrack.UserControllerTests" tests="2" time="2.962" timestamp="2014-09-12T05:54:48">
+<testsuite errors="0" failures="0" hostname="MC02MF14LFD58.local" name="racetrack.UserControllerTests" tests="1" time="2.983" timestamp="2014-09-12T20:39:39">
   <properties />
-  <testcase classname="racetrack.UserControllerTests" name="testAuthenticate" time="2.775" />
-  <testcase classname="racetrack.UserControllerTests" name="testIndex" time="0.136">
-    <failure message="Assertion failed: &#xa;&#xa;assert &quot;/user/list&quot; == response.redirectedUrl&#xa;                    |  |        |&#xa;                    |  |        null&#xa;                    |  org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@257f2ad0&#xa;                    false&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
-
-assert &quot;/user/list&quot; == response.redirectedUrl
-                    |  |        |
-                    |  |        null
-                    |  org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@257f2ad0
-                    false
-
-	at racetrack.UserControllerTests.testIndex(UserControllerTests.groovy:15)
-</failure>
-  </testcase>
+  <testcase classname="racetrack.UserControllerTests" name="testAuthenticate" time="2.931" />
   <system-out><![CDATA[--Output from testAuthenticate--
---Output from testIndex--
 ]]></system-out>
   <system-err><![CDATA[--Output from testAuthenticate--
---Output from testIndex--
 ]]></system-err>
 </testsuite>

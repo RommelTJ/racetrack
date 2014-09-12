@@ -17,6 +17,9 @@ class User {
         return role == "admin"
     }
 
+    def beforeInsert = {
+        password = password.encodeAsSHHHA()
+    }
     String toString() {
         login
     }

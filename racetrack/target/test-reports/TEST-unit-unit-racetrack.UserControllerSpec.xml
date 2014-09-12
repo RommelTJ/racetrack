@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="2" failures="1" hostname="MC02MF14LFD58.local" name="racetrack.UserControllerSpec" tests="7" time="0.686" timestamp="2014-09-12T05:54:51">
+<testsuite errors="2" failures="1" hostname="MC02MF14LFD58.local" name="racetrack.UserControllerSpec" tests="7" time="0.79" timestamp="2014-09-12T20:39:42">
   <properties />
-  <testcase classname="racetrack.UserControllerSpec" name="Test the index action returns the correct model" time="0.254" />
-  <testcase classname="racetrack.UserControllerSpec" name="Test the create action returns the correct model" time="0.039" />
-  <testcase classname="racetrack.UserControllerSpec" name="Test the save action correctly persists an instance" time="0.228">
+  <testcase classname="racetrack.UserControllerSpec" name="Test the index action returns the correct model" time="0.322" />
+  <testcase classname="racetrack.UserControllerSpec" name="Test the create action returns the correct model" time="0.037" />
+  <testcase classname="racetrack.UserControllerSpec" name="Test the save action correctly persists an instance" time="0.257">
     <error message="Cannot redirect for object [null] it is not a domain or has no identifier. Use an explicit redirect instead " type="org.codehaus.groovy.grails.web.servlet.mvc.exceptions.CannotRedirectException">org.codehaus.groovy.grails.web.servlet.mvc.exceptions.CannotRedirectException: Cannot redirect for object [null] it is not a domain or has no identifier. Use an explicit redirect instead 
 	at org.grails.plugins.web.rest.api.ControllersRestApi.redirect(ControllersRestApi.groovy:53)
 	at racetrack.UserController.tt__save_closure12_closure17(UserController.groovy:43)
@@ -11,14 +11,14 @@
 	at racetrack.UserControllerSpec.Test the save action correctly persists an instance(UserControllerSpec.groovy:54)
 </error>
   </testcase>
-  <testcase classname="racetrack.UserControllerSpec" name="Test that the show action returns the correct model" time="0.036" />
-  <testcase classname="racetrack.UserControllerSpec" name="Test that the edit action returns the correct model" time="0.03" />
-  <testcase classname="racetrack.UserControllerSpec" name="Test the update action performs an update on a valid domain instance" time="0.045">
+  <testcase classname="racetrack.UserControllerSpec" name="Test that the show action returns the correct model" time="0.03" />
+  <testcase classname="racetrack.UserControllerSpec" name="Test that the edit action returns the correct model" time="0.027" />
+  <testcase classname="racetrack.UserControllerSpec" name="Test the update action performs an update on a valid domain instance" time="0.054">
     <error message="Cannot get property &apos;id&apos; on null object" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot get property &apos;id&apos; on null object
 	at racetrack.UserControllerSpec.Test the update action performs an update on a valid domain instance(UserControllerSpec.groovy:122)
 </error>
   </testcase>
-  <testcase classname="racetrack.UserControllerSpec" name="Test that the delete action deletes an instance if it exists" time="0.036">
+  <testcase classname="racetrack.UserControllerSpec" name="Test that the delete action deletes an instance if it exists" time="0.041">
     <failure message="Condition not satisfied:&#xa;&#xa;User.count() == 1&#xa;     |       |&#xa;     0       false&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Condition not satisfied:
 
 User.count() == 1

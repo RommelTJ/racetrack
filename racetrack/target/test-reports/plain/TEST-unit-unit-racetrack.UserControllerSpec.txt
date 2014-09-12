@@ -1,5 +1,5 @@
 Testsuite: racetrack.UserControllerSpec
-Tests run: 7, Failures: 1, Errors: 2, Time elapsed: 0.686 sec
+Tests run: 7, Failures: 1, Errors: 2, Time elapsed: 0.79 sec
 ------------- Standard Output ---------------
 --Output from Test the index action returns the correct model--
 --Output from Test the create action returns the correct model--
@@ -19,9 +19,9 @@ Tests run: 7, Failures: 1, Errors: 2, Time elapsed: 0.686 sec
 --Output from Test that the delete action deletes an instance if it exists--
 ------------- ---------------- ---------------
 
-Testcase: Test the index action returns the correct model took 0.254 sec
-Testcase: Test the create action returns the correct model took 0.039 sec
-Testcase: Test the save action correctly persists an instance took 0.226 sec
+Testcase: Test the index action returns the correct model took 0.322 sec
+Testcase: Test the create action returns the correct model took 0.037 sec
+Testcase: Test the save action correctly persists an instance took 0.255 sec
 	Caused an ERROR
 Cannot redirect for object [null] it is not a domain or has no identifier. Use an explicit redirect instead 
 org.codehaus.groovy.grails.web.servlet.mvc.exceptions.CannotRedirectException: Cannot redirect for object [null] it is not a domain or has no identifier. Use an explicit redirect instead 
@@ -30,15 +30,15 @@ org.codehaus.groovy.grails.web.servlet.mvc.exceptions.CannotRedirectException: C
 	at racetrack.UserController.$tt__save(UserController.groovy:40)
 	at racetrack.UserControllerSpec.Test the save action correctly persists an instance(UserControllerSpec.groovy:54)
 
-Testcase: Test that the show action returns the correct model took 0.036 sec
-Testcase: Test that the edit action returns the correct model took 0.03 sec
-Testcase: Test the update action performs an update on a valid domain instance took 0.044 sec
+Testcase: Test that the show action returns the correct model took 0.03 sec
+Testcase: Test that the edit action returns the correct model took 0.027 sec
+Testcase: Test the update action performs an update on a valid domain instance took 0.054 sec
 	Caused an ERROR
 Cannot get property 'id' on null object
 java.lang.NullPointerException: Cannot get property 'id' on null object
 	at racetrack.UserControllerSpec.Test the update action performs an update on a valid domain instance(UserControllerSpec.groovy:122)
 
-Testcase: Test that the delete action deletes an instance if it exists took 0.035 sec
+Testcase: Test that the delete action deletes an instance if it exists took 0.04 sec
 	FAILED
 Condition not satisfied:
 
