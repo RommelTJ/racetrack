@@ -10,6 +10,26 @@ class UserController {
 
     static allowedMethods = [save: "POST", update: "PUT", delete: "DELETE"]
 
+    def beforeInterceptor = [action:this.&auth, except:['login', 'logout', 'authenticate']]
+
+    def auth() {
+        if(!session.user){
+            redirect(controller:"user", action:"login")
+            return false
+        }
+
+        if(!session.user.admin) {
+            flash.message = "Sorry, you have to be an Admin to use the UserController."
+            redirect(controller:"race", action:"index")
+            return false
+        }
+    }
+
+    def debug() {
+        println "DEBUG: ${actionUri} called."
+        println "DEBUG: ${params}"
+    }
+
     def index(Integer max) {
         params.max = Math.min(max ?: 10, 100)
         respond User.list(params), model:[userInstanceCount: User.count()]
