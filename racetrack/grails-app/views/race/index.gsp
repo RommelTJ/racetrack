@@ -40,9 +40,6 @@
                             format="\$###,##0" /></span>
             </p> </div>
     </g:each>
-    <div class="paginateButtons">
-        <g:paginate total="${raceInstanceTotal}" />
-    </div>
 </div>
 </body>
 </html>
