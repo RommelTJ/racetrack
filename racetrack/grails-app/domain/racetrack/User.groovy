@@ -18,7 +18,7 @@ class User {
     }
 
     def beforeInsert = {
-        password = password.encodeAsSHHHA()
+        password = password.encodeAsSha()
     }
     String toString() {
         login
